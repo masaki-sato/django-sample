@@ -57,6 +57,9 @@ ROOT_URLCONF = 'blog.urls'
 WSGI_APPLICATION = 'blog.wsgi.application'
 
 
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, '../blog/templates/'),
+)
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 

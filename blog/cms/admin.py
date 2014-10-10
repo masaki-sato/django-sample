@@ -29,7 +29,7 @@ class PostAdmin(admin.ModelAdmin):
     )
 
     def blog_name(self, obj):
-        return obj.room.name
+        return obj.blog.name
 
     blog_name.short_description = 'ブログ名'
 
