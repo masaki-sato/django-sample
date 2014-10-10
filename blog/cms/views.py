@@ -3,10 +3,13 @@
 from django.http import HttpResponse
 from django.template import loader
 from django.template import RequestContext
+#from django.contrib.auth.decorators import login_required
+
 
 from cms.models import Post
 
 
+#@login_required
 def post(request, post_id):
 
     # 通常の取得
