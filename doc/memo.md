@@ -36,6 +36,10 @@ python manage.py runserver
 
 ## 参考URL
 
-http://www.sakito.com/2012/09/python-memoryprofiler.html
-http://qiita.com/kaki_k/items/511611cadac1d0c69c54
-https://docs.djangoproject.com/en/1.7/intro/tutorial01/
+* http://qiita.com/kaki_k/items/511611cadac1d0c69c54
+* https://docs.djangoproject.com/en/1.7/intro/tutorial01/
+
+## ライブラリメモ
+
+* http://www.sakito.com/2012/09/python-memoryprofiler.html
+* http://docs.python-requests.org/en/latest/
